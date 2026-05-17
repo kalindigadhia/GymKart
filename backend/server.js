@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: true,
+  origin: "https://gym-kart-one.vercel.app",
   credentials: true
 }));
 

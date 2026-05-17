@@ -245,7 +245,7 @@ useEffect(() => {
                   onClick={() => navigate(`/product/${p._id}`)}
                 >
                   <img
-                    src={`http://localhost:5043/images/${p.image}`}
+                    src={`https://gymkart-2.onrender.com/images/${p.image}`}
                     alt={p.name}
                     className="w-full h-64 object-cover group-hover:scale-105 transition duration-300"
                     onError={(e) => {

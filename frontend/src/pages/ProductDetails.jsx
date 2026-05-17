@@ -90,7 +90,7 @@ export default function ProductDetails() {
       {/* LEFT IMAGE */}
       <div className="bg-gray-50 p-6 rounded-2xl flex items-center justify-center">
         <img
-          src={`http://localhost:5043/images/${product.image}`}
+          src={`https://gymkart-2.onrender.com/images/${product.image}`}
           alt={product.name}
           className="h-[450px] object-contain"
         />

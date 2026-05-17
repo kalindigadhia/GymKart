@@ -255,7 +255,7 @@ export default function SearchResults() {
                     >
                       <div className="relative overflow-hidden bg-gray-100">
                         <img
-                          src={`http://localhost:5043/images/${product.image}`}
+                          src={`https://gymkart-2.onrender.com/images/${product.image}`}
                           alt={product.name}
                           className="h-64 w-full object-cover transition duration-300 group-hover:scale-105"
                           onError={(e) => {

@@ -260,7 +260,7 @@ const [recentOrders, setRecentOrders] = useState([]);
                 <tr key={product._id} className="border-b hover:bg-gray-50">
                   <td className="py-2">
                     <img
-                      src={`http://localhost:5043/images/${product.image}`}
+                      src={`https://gymkart-2.onrender.com/images/${product.image}`}
                       alt={product.name}
                       className="w-12 h-12 object-contain"
                       onError={(e) => {

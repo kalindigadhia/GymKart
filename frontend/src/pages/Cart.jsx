@@ -112,7 +112,7 @@ export default function Cart() {
           >
             {/* Image */}
             <img
-              src={`http://localhost:5043/images/${item.image}`}
+              src={`https://gymkart-2.onrender.com/images/${item.image}`}
               alt={item.name}
               className="w-20 h-20 object-contain mr-4"
             />

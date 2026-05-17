@@ -152,8 +152,10 @@ export default function Navbar() {
   const brandsItems = [
     { label: "MuscleBlaze", onClick: () => navigate("/search?brand=MuscleBlaze") },
     { label: "Optimum Nutrition", onClick: () => navigate("/search?brand=OptimumNutrition") },
-    { label: "Avvatar", onClick: () => navigate("/search?brand=Avvatar") },
-    { label: "GNC", onClick: () => navigate("/search?brand=GNC") },
+    { label: "Generic", onClick: () => navigate("/search?brand=Generic") },
+     { label: "Endura", onClick: () => navigate("/search?brand=Endura") },
+      { label: "Powermax", onClick: () => navigate("/search?brand=Powermax") },
+       { label: "Cult", onClick: () => navigate("/search?brand=Cult") },
   ];
 
   const offerZoneItems = [
@@ -361,11 +363,6 @@ export default function Navbar() {
           <NavbarDropdown
             label="Brands"
             items={brandsItems}
-            isMobile={false}
-          />
-          <NavbarDropdown
-            label="Offer Zone"
-            items={offerZoneItems}
             isMobile={false}
           />
         </div>
